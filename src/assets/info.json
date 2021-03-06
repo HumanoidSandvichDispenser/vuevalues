@@ -1,0 +1,71 @@
+{
+    "name": "Vue Values Example",
+    "author": "HumanoidSandvichDispenser",
+    "description": "Test/demonstration of Vue Values",
+    "values": [
+        {
+            "name": "Boomer",
+            "converse": "Zoomer",
+            "valueColor": "#b8bb26",
+            "converseColor": "#fb4934"
+        },
+        {
+            "name": "Doomer",
+            "converse": "Bloomer",
+            "valueColor": "#83a598",
+            "converseColor": "#fabd2f"
+        }
+    ],
+    "questions": [
+        {
+            "question": "I have an extreme reliance on my phone",
+            "effects": {
+                "0": -10,
+                "1": 5
+            }
+        },
+        {
+            "question": "Astrology is complete nonsense",
+            "effects": {
+                "0": 5
+            }
+        },
+        {
+            "question": "I \"live to work\" rather than I \"work to live\"",
+            "effects": {
+                "0": 10
+            }
+        },
+        {
+            "question": "I prefer rock music over other genres",
+            "effects": {
+                "0": 5
+            }
+        },
+        {
+            "question": "I am depressed",
+            "effects": {
+                "1": 10
+            }
+        },
+        {
+            "question": "If there was no coronavirus, I would be outside right now",
+            "effects": {
+                "0": 5,
+                "1": -5
+            }
+        },
+        {
+            "question": "I use Tinder regularly",
+            "effects": {
+                "1": 10
+            }
+        },
+        {
+            "question": "2022 will be better than 2021",
+            "effects": {
+                "1": -5
+            }
+        }
+    ]
+}
